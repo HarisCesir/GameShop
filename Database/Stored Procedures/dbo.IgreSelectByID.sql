@@ -1,0 +1,13 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[IgreSelectByID]
+
+@IgraID int
+AS
+   SELECT *
+   FROM Igre
+   WHERE IgraID=@IgraID
+
+GO

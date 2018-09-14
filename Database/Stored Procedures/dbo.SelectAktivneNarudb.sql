@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[SelectAktivneNarudb]
+
+AS
+
+SELECT NarudzbaID,BrojNarudzbe FROM Narudzbe WHERE Status=1
+GO

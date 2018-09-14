@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="49351be95a7b4d6ea7fd7ed1b16887e3" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Aukcije" Width="1.5" PointX="2.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Dobavljaci" Width="1.5" PointX="3.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Igre" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Izdavaci" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Izlazi" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IzlazStavke" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Korisnici" Width="1.5" PointX="3.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KorisniciUloge" Width="1.5" PointX="9" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Kupci" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Narudzbe" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NarudzbeStavke" Width="1.5" PointX="8.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Ocjene" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Recenzije" Width="1.5" PointX="6" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Skladista" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="10.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Ulaz" Width="1.5" PointX="6" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UlazStavke" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Uloge" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Vrsta" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Zahtjevi" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ZahtjeviKupci" Width="1.5" PointX="10.5" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Ulaz_Dobavljaci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Igre_Izdavaci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Igre_Vrsta" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_IzlazStavke_Igre" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NarudzbeStavke_Igre" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Ocjene_Igre" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UlazStavke_Igre" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Izlazi_Kupci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Izlazi_Narudzbe" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Izlazi_Skladista" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_IzlazStavke_Izlazi" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_KorisniciUloge_Korisnici" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Recenzije_Korisnici" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Ulaz_Korisnici" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_KorisniciUloge_Uloge" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Narudzbe_Kupci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Ocjene_Kupci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Zahtjevi_Kupci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ZahtjeviKupci_Kupci" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NarudzbeStavke_Narudzbe" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Ulaz_Skladista" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UlazStavke_Ulaz" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ZahtjeviKupci_Zahtjevi" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Aukcije_Korisnici" />
+        <AssociationConnector Association="Model.FK_Recenzije_Igre" />
+        <EntityTypeShape EntityType="Model.AukcijaPonuda" Width="1.5" PointX="5" PointY="0.75" />
+        <AssociationConnector Association="Model.FK_AukcijaPonuda_Aukcije" />
+        <AssociationConnector Association="Model.FK_Aukcije_Igre" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,14 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[AukcSelectByID]
+(
+
+@AukcijaID int
+)
+AS
+
+SELECT * FROM Aukcije WHERE AukcijeID=@AukcijaID
+
+GO

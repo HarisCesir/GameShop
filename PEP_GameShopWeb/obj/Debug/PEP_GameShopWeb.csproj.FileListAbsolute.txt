@@ -1,0 +1,178 @@
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.pdb
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Antlr3.Runtime.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\EntityFramework.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Services.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\System.Web.Optimization.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\System.Web.Providers.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\WebGrease.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Services.pdb
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\EntityFramework.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.csprojResolveAssemblyReference.cache
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.dll
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.pdb
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.pdb
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Antlr3.Runtime.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\EntityFramework.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Services.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\System.Web.Optimization.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\System.Web.Providers.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\WebGrease.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Services.pdb
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\EntityFramework.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Antlr3.Runtime.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\EntityFramework.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\System.Web.Optimization.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\System.Web.Providers.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\WebGrease.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\EntityFramework.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.csprojResolveAssemblyReference.cache
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll.config
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll.config
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\PEP_GameShopWeb.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Antlr3.Runtime.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\EntityFramework.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\System.Web.Optimization.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\System.Web.Providers.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\WebGrease.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\EntityFramework.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.csprojResolveAssemblyReference.cache
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.pdb
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll.config
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\PEP_GameShopWeb.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\PEP_GameShopWeb.pdb
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Antlr3.Runtime.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\EntityFramework.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Services.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\System.Web.Optimization.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\System.Web.Providers.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\WebGrease.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Services.pdb
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\EntityFramework.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.csprojResolveAssemblyReference.cache
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP_GameShopWeb\obj\Debug\PEP_GameShopWeb.pdb

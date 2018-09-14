@@ -1,0 +1,154 @@
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.config
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.pdb
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\Services.dll
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\EntityFramework.dll
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\Services.pdb
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\EntityFramework.xml
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csprojResolveAssemblyReference.cache
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmLogin.resources
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmMain.resources
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.poruke.resources
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Properties.Resources.resources
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csproj.GenerateResource.Cache
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.pdb
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmKorisnikNovi.resources
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPretraga.resources
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPristup.resources
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmProizvodi.resources
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.manifest
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.application
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe.manifest
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.application
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmDobavljacPretraga.resources
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmUlazRobe.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.config
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.manifest
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.application
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\EntityFramework.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\bin\Debug\EntityFramework.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csprojResolveAssemblyReference.cache
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmLogin.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmMain.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmKorisnikNovi.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPretraga.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPristup.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.poruke.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Properties.Resources.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmDobavljacPretraga.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmProizvodi.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmUlazRobe.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csproj.GenerateResource.Cache
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\RdlCompile.cache
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\RdlCompile.compiled
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe.manifest
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.application
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmIzmjenaLicnihPodataka.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmDodajDobavljaca.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmDodajSkladista.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmPretragaProizvoda.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmSkladistePregled.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmProizvodiIzvjestaj.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmDodajRecenziju.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmDodajAukciju.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmPretragaRecenzija.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmDetalji.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmIzmjena.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmPretragaPoCijeni.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmAukcijePretragaPoDatumu.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Zahtjevi.frmPretragaZahtjevaNaziv.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izlaz.frmIzlaz.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmIgreSifra.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmIgreVrsta.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmProdajaPoDatumu.resources
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmZahtjeviGlasovi.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.config
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.manifest
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.application
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\EntityFramework.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\EntityFramework.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csprojResolveAssemblyReference.cache
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmAukcijePretragaPoDatumu.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmDodajAukciju.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmLogin.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmMain.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izlaz.frmIzlaz.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmIgreVrsta.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmProdajaPoDatumu.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmProizvodiIzvjestaj.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmZahtjeviGlasovi.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmIzmjenaLicnihPodataka.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmKorisnikNovi.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPretraga.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPristup.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.poruke.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Properties.Resources.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmDetalji.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmDodajRecenziju.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmPretragaRecenzija.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmDobavljacPretraga.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmDodajDobavljaca.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmDodajSkladista.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmPretragaPoCijeni.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmPretragaProizvoda.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmProizvodi.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmSkladistePregled.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmUlazRobe.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Zahtjevi.frmPretragaZahtjevaNaziv.resources
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csproj.GenerateResource.Cache
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\RdlCompile.cache
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\RdlCompile.compiled
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe.manifest
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.application
+D:\FAX\FAX\zadnje\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmPonude.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.config
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.pdb
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csprojResolveAssemblyReference.cache
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmAukcijePretragaPoDatumu.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmDodajAukciju.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Aukcija.frmPonude.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmLogin.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.frmMain.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izlaz.frmIzlaz.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmIgreVrsta.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmProdajaPoDatumu.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmProizvodiIzvjestaj.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Izvještaji.frmZahtjeviGlasovi.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmIzmjenaLicnihPodataka.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmKorisnikNovi.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPretraga.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Korisnik.frmPristup.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.poruke.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Properties.Resources.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmDetalji.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmDodajRecenziju.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Recenzije.frmPretragaRecenzija.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmDobavljacPretraga.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmDodajDobavljaca.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmDodajSkladista.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmPretragaPoCijeni.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmPretragaProizvoda.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmProizvodi.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.frmSkladistePregled.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.UlazRobe.FrmUlazRobe.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP_GameShop_Administracija.Zahtjevi.frmPretragaZahtjevaNaziv.resources
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.csproj.GenerateResource.Cache
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\RdlCompile.cache
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\RdlCompile.compiled
+D:\FAX\FAX\GOTOVO\PEP\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\bin\Debug\PEP-GameShop_Administracija.exe.config
+D:\FAX\FAX\GOTOVO\PEP\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.exe
+D:\FAX\FAX\GOTOVO\PEP\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\PEP-GameShop_Administracija\obj\Debug\PEP-GameShop_Administracija.pdb

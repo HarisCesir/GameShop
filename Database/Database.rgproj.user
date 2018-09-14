@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ConnectionString>Data Source=WIN-FC2DQO7JNCQ\SQLEXPRESS;initial catalog="PEP-GameShop";Integrated security=SSPI;;pooling=false;application name=Red Gate Software - SQL Tools;</ConnectionString>
+  </PropertyGroup>
+</Project>

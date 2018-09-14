@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B99736A3-14E3-461F-B616-4A59BDBE914C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PEP_GameShop_Administracija</RootNamespace>
+    <AssemblyName>PEP-GameShop_Administracija</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\PeroPapacoder\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3D48297C019F2AC6618B76F695F6B39CB41D6360</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PEP-GameShop_Administracija_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aukcija\frmAukcijePretragaPoDatumu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aukcija\frmAukcijePretragaPoDatumu.Designer.cs">
+      <DependentUpon>frmAukcijePretragaPoDatumu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aukcija\frmDodajAukciju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aukcija\frmDodajAukciju.Designer.cs">
+      <DependentUpon>frmDodajAukciju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aukcija\frmPonude.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aukcija\frmPonude.Designer.cs">
+      <DependentUpon>frmPonude.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="global.cs" />
+    <Compile Include="Izlaz\frmIzlaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izlaz\frmIzlaz.Designer.cs">
+      <DependentUpon>frmIzlaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izvještaji\frmIgreVrsta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izvještaji\frmIgreVrsta.Designer.cs">
+      <DependentUpon>frmIgreVrsta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izvještaji\frmProdajaPoDatumu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izvještaji\frmProdajaPoDatumu.Designer.cs">
+      <DependentUpon>frmProdajaPoDatumu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izvještaji\frmProizvodiIzvjestaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izvještaji\frmProizvodiIzvjestaj.Designer.cs">
+      <DependentUpon>frmProizvodiIzvjestaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izvještaji\frmZahtjeviGlasovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izvještaji\frmZahtjeviGlasovi.Designer.cs">
+      <DependentUpon>frmZahtjeviGlasovi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korisnik\frmIzmjenaLicnihPodataka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korisnik\frmIzmjenaLicnihPodataka.Designer.cs">
+      <DependentUpon>frmIzmjenaLicnihPodataka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korisnik\frmKorisnikNovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korisnik\frmKorisnikNovi.Designer.cs">
+      <DependentUpon>frmKorisnikNovi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korisnik\frmPretraga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korisnik\frmPretraga.Designer.cs">
+      <DependentUpon>frmPretraga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korisnik\frmPristup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korisnik\frmPristup.Designer.cs">
+      <DependentUpon>frmPristup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="poruke.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>poruke.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recenzije\frmDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recenzije\frmDetalji.Designer.cs">
+      <DependentUpon>frmDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recenzije\frmDodajRecenziju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recenzije\frmDodajRecenziju.Designer.cs">
+      <DependentUpon>frmDodajRecenziju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recenzije\frmPretragaRecenzija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recenzije\frmPretragaRecenzija.Designer.cs">
+      <DependentUpon>frmPretragaRecenzija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\FrmDobavljacPretraga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\FrmDobavljacPretraga.Designer.cs">
+      <DependentUpon>FrmDobavljacPretraga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\frmDodajDobavljaca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\frmDodajDobavljaca.Designer.cs">
+      <DependentUpon>frmDodajDobavljaca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\frmDodajSkladista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\frmDodajSkladista.Designer.cs">
+      <DependentUpon>frmDodajSkladista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\frmPretragaPoCijeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\frmPretragaPoCijeni.Designer.cs">
+      <DependentUpon>frmPretragaPoCijeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\frmPretragaProizvoda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\frmPretragaProizvoda.Designer.cs">
+      <DependentUpon>frmPretragaProizvoda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\frmProizvodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\frmProizvodi.Designer.cs">
+      <DependentUpon>frmProizvodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\frmSkladistePregled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\frmSkladistePregled.Designer.cs">
+      <DependentUpon>frmSkladistePregled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UlazRobe\FrmUlazRobe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UlazRobe\FrmUlazRobe.Designer.cs">
+      <DependentUpon>FrmUlazRobe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zahtjevi\frmPretragaZahtjevaNaziv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zahtjevi\frmPretragaZahtjevaNaziv.Designer.cs">
+      <DependentUpon>frmPretragaZahtjevaNaziv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet.cs">
+      <DependentUpon>_PEP_GameShopDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_PEP_GameShopDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_PEP_GameShopDataSet6.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Aukcija\frmAukcijePretragaPoDatumu.resx">
+      <DependentUpon>frmAukcijePretragaPoDatumu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aukcija\frmDodajAukciju.resx">
+      <DependentUpon>frmDodajAukciju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aukcija\frmPonude.resx">
+      <DependentUpon>frmPonude.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izlaz\frmIzlaz.resx">
+      <DependentUpon>frmIzlaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvještaji\frmIgreVrsta.resx">
+      <DependentUpon>frmIgreVrsta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvještaji\frmProdajaPoDatumu.resx">
+      <DependentUpon>frmProdajaPoDatumu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvještaji\frmProizvodiIzvjestaj.resx">
+      <DependentUpon>frmProizvodiIzvjestaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvještaji\frmZahtjeviGlasovi.resx">
+      <DependentUpon>frmZahtjeviGlasovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvještaji\IgreVrsta.rdlc" />
+    <EmbeddedResource Include="Izvještaji\ProdajaDatum.rdlc" />
+    <EmbeddedResource Include="Izvještaji\proizvodi.rdlc" />
+    <EmbeddedResource Include="Izvještaji\Report1.rdlc" />
+    <EmbeddedResource Include="Izvještaji\ZahtjeviGlasovi.rdlc" />
+    <EmbeddedResource Include="Korisnik\frmIzmjenaLicnihPodataka.resx">
+      <DependentUpon>frmIzmjenaLicnihPodataka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korisnik\frmKorisnikNovi.resx">
+      <DependentUpon>frmKorisnikNovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korisnik\frmPretraga.resx">
+      <DependentUpon>frmPretraga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korisnik\frmPristup.resx">
+      <DependentUpon>frmPristup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poruke.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>poruke.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Recenzije\frmDetalji.resx">
+      <DependentUpon>frmDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recenzije\frmDodajRecenziju.resx">
+      <DependentUpon>frmDodajRecenziju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recenzije\frmPretragaRecenzija.resx">
+      <DependentUpon>frmPretragaRecenzija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\FrmDobavljacPretraga.resx">
+      <DependentUpon>FrmDobavljacPretraga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\frmDodajDobavljaca.resx">
+      <DependentUpon>frmDodajDobavljaca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\frmDodajSkladista.resx">
+      <DependentUpon>frmDodajSkladista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\frmPretragaPoCijeni.resx">
+      <DependentUpon>frmPretragaPoCijeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\frmPretragaProizvoda.resx">
+      <DependentUpon>frmPretragaProizvoda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\frmProizvodi.resx">
+      <DependentUpon>frmProizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\frmSkladistePregled.resx">
+      <DependentUpon>frmSkladistePregled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazRobe\FrmUlazRobe.resx">
+      <DependentUpon>FrmUlazRobe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zahtjevi\frmPretragaZahtjevaNaziv.resx">
+      <DependentUpon>frmPretragaZahtjevaNaziv.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PEP-GameShop_Administracija_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Services.Data.Igre.datasource" />
+    <None Include="Properties\DataSources\Services.Data.IgreSifraIzvjestaj_Result.datasource" />
+    <None Include="Properties\DataSources\Services.Data.IzlazSelectByDatum_Result.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_PEP_GameShopDataSet.xsc">
+      <DependentUpon>_PEP_GameShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet.xss">
+      <DependentUpon>_PEP_GameShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet1.xsc">
+      <DependentUpon>_PEP_GameShopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet1.xss">
+      <DependentUpon>_PEP_GameShopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet2.xsc">
+      <DependentUpon>_PEP_GameShopDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet2.xss">
+      <DependentUpon>_PEP_GameShopDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet3.xsc">
+      <DependentUpon>_PEP_GameShopDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet3.xss">
+      <DependentUpon>_PEP_GameShopDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet4.xsc">
+      <DependentUpon>_PEP_GameShopDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet4.xss">
+      <DependentUpon>_PEP_GameShopDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet5.xsc">
+      <DependentUpon>_PEP_GameShopDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet5.xss">
+      <DependentUpon>_PEP_GameShopDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet6.xsc">
+      <DependentUpon>_PEP_GameShopDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="_PEP_GameShopDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_PEP_GameShopDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_PEP_GameShopDataSet6.xss">
+      <DependentUpon>_PEP_GameShopDataSet6.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{372d779b-d857-4e1e-bcb7-6efeb6cb4cae}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAccounts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Searches Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Links Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Games alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shortcuts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-big-searchoptimization.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game-shop-logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

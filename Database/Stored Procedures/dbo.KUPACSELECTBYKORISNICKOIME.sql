@@ -1,0 +1,18 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[KUPACSELECTBYKORISNICKOIME]
+(
+
+@KorisnickoIme nvarchar(100)
+
+)
+
+AS
+
+SELECT *
+FROM Kupci
+WHERE KorisnickoIme=@KorisnickoIme AND Status=1
+
+GO

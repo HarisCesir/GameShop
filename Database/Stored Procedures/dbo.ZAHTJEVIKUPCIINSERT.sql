@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[ZAHTJEVIKUPCIINSERT]
+(
+
+@KupacID int,
+@ZahtjevID int
+)
+AS
+
+INSERT INTO ZahtjeviKupci(KupacID,ZahtjevID) VALUES(@KupacID,@ZahtjevID)
+
+GO

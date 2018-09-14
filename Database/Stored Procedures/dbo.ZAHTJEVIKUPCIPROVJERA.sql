@@ -1,0 +1,16 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[ZAHTJEVIKUPCIPROVJERA]
+(
+@KupacID int,
+@ZahtjevID int
+
+)
+AS
+
+SELECT * FROM ZahtjeviKupci 
+WHERE KupacID=@KupacID AND ZahtjevID=@ZahtjevID
+
+GO

@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Dobavljaci" EntityType="Model.Dobavljaci" />
+    <EntitySet Name="Igre" EntityType="Model.Igre" />
+    <EntitySet Name="Izdavaci" EntityType="Model.Izdavaci" />
+    <EntitySet Name="Izlazi" EntityType="Model.Izlazi" />
+    <EntitySet Name="IzlazStavke" EntityType="Model.IzlazStavke" />
+    <EntitySet Name="Korisnici" EntityType="Model.Korisnici" />
+    <EntitySet Name="KorisniciUloge" EntityType="Model.KorisniciUloge" />
+    <EntitySet Name="Kupci" EntityType="Model.Kupci" />
+    <EntitySet Name="Narudzbe" EntityType="Model.Narudzbe" />
+    <EntitySet Name="NarudzbeStavke" EntityType="Model.NarudzbeStavke" />
+    <EntitySet Name="Ocjene" EntityType="Model.Ocjene" />
+    <EntitySet Name="Skladista" EntityType="Model.Skladista" />
+    <EntitySet Name="Ulaz" EntityType="Model.Ulaz" />
+    <EntitySet Name="UlazStavke" EntityType="Model.UlazStavke" />
+    <EntitySet Name="Uloge" EntityType="Model.Uloge" />
+    <EntitySet Name="Vrsta" EntityType="Model.Vrsta" />
+    <AssociationSet Name="FK_Ulaz_Dobavljaci" Association="Model.FK_Ulaz_Dobavljaci">
+      <End Role="Dobavljaci" EntitySet="Dobavljaci" />
+      <End Role="Ulaz" EntitySet="Ulaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Igre_Izdavaci" Association="Model.FK_Igre_Izdavaci">
+      <End Role="Izdavaci" EntitySet="Izdavaci" />
+      <End Role="Igre" EntitySet="Igre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IzlazStavke_Igre" Association="Model.FK_IzlazStavke_Igre">
+      <End Role="Igre" EntitySet="Igre" />
+      <End Role="IzlazStavke" EntitySet="IzlazStavke" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NarudzbeStavke_Igre" Association="Model.FK_NarudzbeStavke_Igre">
+      <End Role="Igre" EntitySet="Igre" />
+      <End Role="NarudzbeStavke" EntitySet="NarudzbeStavke" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ocjene_Igre" Association="Model.FK_Ocjene_Igre">
+      <End Role="Igre" EntitySet="Igre" />
+      <End Role="Ocjene" EntitySet="Ocjene" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UlazStavke_Igre" Association="Model.FK_UlazStavke_Igre">
+      <End Role="Igre" EntitySet="Igre" />
+      <End Role="UlazStavke" EntitySet="UlazStavke" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Izlazi_Korisnici" Association="Model.FK_Izlazi_Korisnici">
+      <End Role="Korisnici" EntitySet="Korisnici" />
+      <End Role="Izlazi" EntitySet="Izlazi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Izlazi_Narudzbe" Association="Model.FK_Izlazi_Narudzbe">
+      <End Role="Narudzbe" EntitySet="Narudzbe" />
+      <End Role="Izlazi" EntitySet="Izlazi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Izlazi_Skladista" Association="Model.FK_Izlazi_Skladista">
+      <End Role="Skladista" EntitySet="Skladista" />
+      <End Role="Izlazi" EntitySet="Izlazi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IzlazStavke_Izlazi" Association="Model.FK_IzlazStavke_Izlazi">
+      <End Role="Izlazi" EntitySet="Izlazi" />
+      <End Role="IzlazStavke" EntitySet="IzlazStavke" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KorisniciUloge_Korisnici" Association="Model.FK_KorisniciUloge_Korisnici">
+      <End Role="Korisnici" EntitySet="Korisnici" />
+      <End Role="KorisniciUloge" EntitySet="KorisniciUloge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ulaz_Korisnici" Association="Model.FK_Ulaz_Korisnici">
+      <End Role="Korisnici" EntitySet="Korisnici" />
+      <End Role="Ulaz" EntitySet="Ulaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KorisniciUloge_Uloge" Association="Model.FK_KorisniciUloge_Uloge">
+      <End Role="Uloge" EntitySet="Uloge" />
+      <End Role="KorisniciUloge" EntitySet="KorisniciUloge" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Narudzbe_Kupci" Association="Model.FK_Narudzbe_Kupci">
+      <End Role="Kupci" EntitySet="Kupci" />
+      <End Role="Narudzbe" EntitySet="Narudzbe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ocjene_Kupci" Association="Model.FK_Ocjene_Kupci">
+      <End Role="Kupci" EntitySet="Kupci" />
+      <End Role="Ocjene" EntitySet="Ocjene" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NarudzbeStavke_Narudzbe" Association="Model.FK_NarudzbeStavke_Narudzbe">
+      <End Role="Narudzbe" EntitySet="Narudzbe" />
+      <End Role="NarudzbeStavke" EntitySet="NarudzbeStavke" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ulaz_Skladista" Association="Model.FK_Ulaz_Skladista">
+      <End Role="Skladista" EntitySet="Skladista" />
+      <End Role="Ulaz" EntitySet="Ulaz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UlazStavke_Ulaz" Association="Model.FK_UlazStavke_Ulaz">
+      <End Role="Ulaz" EntitySet="Ulaz" />
+      <End Role="UlazStavke" EntitySet="UlazStavke" />
+    </AssociationSet>
+    <FunctionImport Name="DeleteKOrisnici">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DobavljaciSelectByID" EntitySet="Dobavljaci" ReturnType="Collection(Model.Dobavljaci)">
+      <Parameter Name="DobavljacID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DobavljaciSelectByNaziv" EntitySet="Dobavljaci" ReturnType="Collection(Model.Dobavljaci)">
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="dodajIzdavaca">
+      <Parameter Name="Ime" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="dodajVrstu">
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetAllDobavljaci" ReturnType="Collection(Model.GetAllDobavljaci_Result)" />
+    <FunctionImport Name="GetAllSkladista" EntitySet="Skladista" ReturnType="Collection(Model.Skladista)" />
+    <FunctionImport Name="GETIzdavaci" EntitySet="Izdavaci" ReturnType="Collection(Model.Izdavaci)" />
+    <FunctionImport Name="GetVrstaALL" EntitySet="Vrsta" ReturnType="Collection(Model.Vrsta)" />
+    <FunctionImport Name="IgreSelectByID" EntitySet="Igre" ReturnType="Collection(Model.Igre)">
+      <Parameter Name="IgraID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="IgreSelectBySifra" EntitySet="Igre" ReturnType="Collection(Model.Igre)">
+      <Parameter Name="Sifra" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IgreSelectByVrstaNaziv" ReturnType="Collection(Model.IgreSelectByVrstaNaziv_Result)">
+      <Parameter Name="VrstaID" Mode="In" Type="Int32" />
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+      <Parameter Name="Offset" Mode="In" Type="Int32" />
+      <Parameter Name="MaxRows" Mode="In" Type="Int32" />
+      <Parameter Name="TotalRows" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertDobavljaci">
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+      <Parameter Name="Adresa" Mode="In" Type="String" />
+      <Parameter Name="KontaktOsoba" Mode="In" Type="String" />
+      <Parameter Name="Telefon" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="ZiroRacun" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="InsertIgre">
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+      <Parameter Name="DatumIzdavanja" Mode="In" Type="String" />
+      <Parameter Name="IzdavacID" Mode="In" Type="Int32" />
+      <Parameter Name="Cijena" Mode="In" Type="Decimal" />
+      <Parameter Name="Slika" Mode="In" Type="Binary" />
+      <Parameter Name="Trailer" Mode="In" Type="String" />
+      <Parameter Name="Opis" Mode="In" Type="String" />
+      <Parameter Name="VrstaID" Mode="In" Type="Int32" />
+      <Parameter Name="SlikaThumb" Mode="In" Type="Binary" />
+      <Parameter Name="Sifra" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertSkladista">
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+      <Parameter Name="Adresa" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IzlazSelectByDatum" ReturnType="Collection(Model.IzlazSelectByDatum_Result)">
+      <Parameter Name="DatumOd" Mode="In" Type="DateTime" />
+      <Parameter Name="DatumDo" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Korisnici_Select_By_KorisnickoIme" EntitySet="Korisnici" ReturnType="Collection(Model.Korisnici)">
+      <Parameter Name="korisnickoIme" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Korisnici_Uloge_SelectByKorisnik" EntitySet="Uloge" ReturnType="Collection(Model.Uloge)">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciChangePassword">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+      <Parameter Name="LozinkaSalt" Mode="In" Type="String" />
+      <Parameter Name="LozinkaHash" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciInsert" ReturnType="Collection(Decimal)">
+      <Parameter Name="Ime" Mode="In" Type="String" />
+      <Parameter Name="Prezime" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Telefon" Mode="In" Type="String" />
+      <Parameter Name="KorisnickoIme" Mode="In" Type="String" />
+      <Parameter Name="LozinkaHash" Mode="In" Type="String" />
+      <Parameter Name="LozinkaSalt" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciIUlogeInsert">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+      <Parameter Name="UlogaID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciSelectByNameSearch" ReturnType="Collection(Model.KorisniciSelectByNameSearch_Result)">
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciSelektById" EntitySet="Korisnici" ReturnType="Collection(Model.Korisnici)">
+      <Parameter Name="KorisnikId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciUlogeDelete">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="KorisniciUpdateStatus">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="KupciInsert">
+      <Parameter Name="Ime" Mode="In" Type="String" />
+      <Parameter Name="Prezime" Mode="In" Type="String" />
+      <Parameter Name="Datum" Mode="In" Type="DateTime" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="KorisnickoIme" Mode="In" Type="String" />
+      <Parameter Name="LozinkaHash" Mode="In" Type="String" />
+      <Parameter Name="LozinkaSalt" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="KupciSelectByKorisnickoIme" EntitySet="Kupci" ReturnType="Collection(Model.Kupci)">
+      <Parameter Name="KorisnickoIme" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SelectIgreAll" EntitySet="Igre" ReturnType="Collection(Model.Igre)" />
+    <FunctionImport Name="SelectIgreNameSifra" EntitySet="Igre" ReturnType="Collection(Model.Igre)">
+      <Parameter Name="Naziv" Mode="In" Type="String" />
+      <Parameter Name="Sifra" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UlazRobeInsert">
+      <Parameter Name="BrojFakture" Mode="In" Type="String" />
+      <Parameter Name="Datum" Mode="In" Type="DateTime" />
+      <Parameter Name="IznosRacuna" Mode="In" Type="Decimal" />
+      <Parameter Name="PDV" Mode="In" Type="Decimal" />
+      <Parameter Name="Napomena" Mode="In" Type="String" />
+      <Parameter Name="SkladisteID" Mode="In" Type="Int32" />
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+      <Parameter Name="DobavljacID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UlazStavkeInsert">
+      <Parameter Name="UlazID" Mode="In" Type="Int32" />
+      <Parameter Name="IgradID" Mode="In" Type="Int32" />
+      <Parameter Name="Kolicina" Mode="In" Type="Int32" />
+      <Parameter Name="Cijena" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UlogeALL" EntitySet="Uloge" ReturnType="Collection(Model.Uloge)" />
+    <FunctionImport Name="update_korisnik">
+      <Parameter Name="KorisnikID" Mode="In" Type="Int32" />
+      <Parameter Name="KorisnikIme" Mode="In" Type="String" />
+      <Parameter Name="KorisnikPrezime" Mode="In" Type="String" />
+      <Parameter Name="KorisnikTelefon" Mode="In" Type="String" />
+      <Parameter Name="KorisnikEmail" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Dobavljaci">
+    <Key>
+      <PropertyRef Name="DobavljacID" />
+    </Key>
+    <Property Name="DobavljacID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="KontaktOsoba" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Adresa" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Telefon" Type="String" Nullable="false" MaxLength="25" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ZiroRacun" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="Ulaz" Relationship="Model.FK_Ulaz_Dobavljaci" FromRole="Dobavljaci" ToRole="Ulaz" />
+  </EntityType>
+  <EntityType Name="Igre">
+    <Key>
+      <PropertyRef Name="IgraID" />
+    </Key>
+    <Property Name="IgraID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="DatumIzdavanja" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="IzdavacID" Type="Int32" Nullable="false" />
+    <Property Name="Cijena" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Slika" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Trailer" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Opis" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="VrstaID" Type="Int32" Nullable="false" />
+    <Property Name="SlikaThumb" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="Šifra" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Izdavaci" Relationship="Model.FK_Igre_Izdavaci" FromRole="Igre" ToRole="Izdavaci" />
+    <NavigationProperty Name="IzlazStavke" Relationship="Model.FK_IzlazStavke_Igre" FromRole="Igre" ToRole="IzlazStavke" />
+    <NavigationProperty Name="NarudzbeStavke" Relationship="Model.FK_NarudzbeStavke_Igre" FromRole="Igre" ToRole="NarudzbeStavke" />
+    <NavigationProperty Name="Ocjene" Relationship="Model.FK_Ocjene_Igre" FromRole="Igre" ToRole="Ocjene" />
+    <NavigationProperty Name="UlazStavke" Relationship="Model.FK_UlazStavke_Igre" FromRole="Igre" ToRole="UlazStavke" />
+  </EntityType>
+  <EntityType Name="Izdavaci">
+    <Key>
+      <PropertyRef Name="IzdavacID" />
+    </Key>
+    <Property Name="IzdavacID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Igre" Relationship="Model.FK_Igre_Izdavaci" FromRole="Izdavaci" ToRole="Igre" />
+  </EntityType>
+  <EntityType Name="Izlazi">
+    <Key>
+      <PropertyRef Name="IzlazID" />
+    </Key>
+    <Property Name="IzlazID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="BrojRacuna" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Datum" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="KorisnikID" Type="Int32" Nullable="false" />
+    <Property Name="Zakljucen" Type="Boolean" Nullable="false" />
+    <Property Name="IznosBezPDV" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="IznosSaPDV" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="NarudzbaID" Type="Int32" Nullable="false" />
+    <Property Name="SkladisteID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Korisnici" Relationship="Model.FK_Izlazi_Korisnici" FromRole="Izlazi" ToRole="Korisnici" />
+    <NavigationProperty Name="Narudzbe" Relationship="Model.FK_Izlazi_Narudzbe" FromRole="Izlazi" ToRole="Narudzbe" />
+    <NavigationProperty Name="Skladista" Relationship="Model.FK_Izlazi_Skladista" FromRole="Izlazi" ToRole="Skladista" />
+    <NavigationProperty Name="IzlazStavke" Relationship="Model.FK_IzlazStavke_Izlazi" FromRole="Izlazi" ToRole="IzlazStavke" />
+  </EntityType>
+  <EntityType Name="IzlazStavke">
+    <Key>
+      <PropertyRef Name="IzlazStavkaID" />
+    </Key>
+    <Property Name="IzlazStavkaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="IzlazID" Type="Int32" Nullable="false" />
+    <Property Name="ProizvodID" Type="Int32" Nullable="false" />
+    <Property Name="Kolicina" Type="Int32" Nullable="false" />
+    <Property Name="Cijena" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Popust" Type="Decimal" Precision="5" Scale="2" />
+    <NavigationProperty Name="Igre" Relationship="Model.FK_IzlazStavke_Igre" FromRole="IzlazStavke" ToRole="Igre" />
+    <NavigationProperty Name="Izlazi" Relationship="Model.FK_IzlazStavke_Izlazi" FromRole="IzlazStavke" ToRole="Izlazi" />
+  </EntityType>
+  <EntityType Name="Korisnici">
+    <Key>
+      <PropertyRef Name="KorisnikID" />
+    </Key>
+    <Property Name="KorisnikID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Prezime" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Telefon" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="KorisnickoIme" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="LozinkaHash" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="true" />
+    <Property Name="LozinkaSalt" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Izlazi" Relationship="Model.FK_Izlazi_Korisnici" FromRole="Korisnici" ToRole="Izlazi" />
+    <NavigationProperty Name="KorisniciUloge" Relationship="Model.FK_KorisniciUloge_Korisnici" FromRole="Korisnici" ToRole="KorisniciUloge" />
+    <NavigationProperty Name="Ulaz" Relationship="Model.FK_Ulaz_Korisnici" FromRole="Korisnici" ToRole="Ulaz" />
+  </EntityType>
+  <EntityType Name="KorisniciUloge">
+    <Key>
+      <PropertyRef Name="KorisnikUlogaID" />
+    </Key>
+    <Property Name="KorisnikUlogaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="KorisnikID" Type="Int32" Nullable="false" />
+    <Property Name="UlogaID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Korisnici" Relationship="Model.FK_KorisniciUloge_Korisnici" FromRole="KorisniciUloge" ToRole="Korisnici" />
+    <NavigationProperty Name="Uloge" Relationship="Model.FK_KorisniciUloge_Uloge" FromRole="KorisniciUloge" ToRole="Uloge" />
+  </EntityType>
+  <EntityType Name="Kupci">
+    <Key>
+      <PropertyRef Name="KupacID" />
+    </Key>
+    <Property Name="KupacID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Prezime" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DatumRegistracije" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="KorisnickoIme" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="LozinkaHash" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="LozinkaSalt" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Narudzbe" Relationship="Model.FK_Narudzbe_Kupci" FromRole="Kupci" ToRole="Narudzbe" />
+    <NavigationProperty Name="Ocjene" Relationship="Model.FK_Ocjene_Kupci" FromRole="Kupci" ToRole="Ocjene" />
+  </EntityType>
+  <EntityType Name="Narudzbe">
+    <Key>
+      <PropertyRef Name="NarudzbaID" />
+    </Key>
+    <Property Name="NarudzbaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="BrojNarudzbe" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="KupacID" Type="Int32" Nullable="false" />
+    <Property Name="Datum" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Otkazano" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Izlazi" Relationship="Model.FK_Izlazi_Narudzbe" FromRole="Narudzbe" ToRole="Izlazi" />
+    <NavigationProperty Name="Kupci" Relationship="Model.FK_Narudzbe_Kupci" FromRole="Narudzbe" ToRole="Kupci" />
+    <NavigationProperty Name="NarudzbeStavke" Relationship="Model.FK_NarudzbeStavke_Narudzbe" FromRole="Narudzbe" ToRole="NarudzbeStavke" />
+  </EntityType>
+  <EntityType Name="NarudzbeStavke">
+    <Key>
+      <PropertyRef Name="NarudzbaStavkaID" />
+    </Key>
+    <Property Name="NarudzbaStavkaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NarudzbaID" Type="Int32" Nullable="false" />
+    <Property Name="IgraID" Type="Int32" Nullable="false" />
+    <Property Name="Kolicina" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Igre" Relationship="Model.FK_NarudzbeStavke_Igre" FromRole="NarudzbeStavke" ToRole="Igre" />
+    <NavigationProperty Name="Narudzbe" Relationship="Model.FK_NarudzbeStavke_Narudzbe" FromRole="NarudzbeStavke" ToRole="Narudzbe" />
+  </EntityType>
+  <EntityType Name="Ocjene">
+    <Key>
+      <PropertyRef Name="OcjenaID" />
+    </Key>
+    <Property Name="OcjenaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProizvodID" Type="Int32" Nullable="false" />
+    <Property Name="KupacID" Type="Int32" Nullable="false" />
+    <Property Name="Datum" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Ocjena" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Igre" Relationship="Model.FK_Ocjene_Igre" FromRole="Ocjene" ToRole="Igre" />
+    <NavigationProperty Name="Kupci" Relationship="Model.FK_Ocjene_Kupci" FromRole="Ocjene" ToRole="Kupci" />
+  </EntityType>
+  <EntityType Name="Skladista">
+    <Key>
+      <PropertyRef Name="SkladisteID" />
+    </Key>
+    <Property Name="SkladisteID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="Adresa" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Izlazi" Relationship="Model.FK_Izlazi_Skladista" FromRole="Skladista" ToRole="Izlazi" />
+    <NavigationProperty Name="Ulaz" Relationship="Model.FK_Ulaz_Skladista" FromRole="Skladista" ToRole="Ulaz" />
+  </EntityType>
+  <EntityType Name="Ulaz">
+    <Key>
+      <PropertyRef Name="UlazID" />
+    </Key>
+    <Property Name="UlazID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="BrojFakture" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Datum" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Račun" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="PDV" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="SkladisteID" Type="Int32" Nullable="false" />
+    <Property Name="KorisnikID" Type="Int32" Nullable="false" />
+    <Property Name="DobavljacID" Type="Int32" Nullable="false" />
+    <Property Name="Napomena" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Dobavljaci" Relationship="Model.FK_Ulaz_Dobavljaci" FromRole="Ulaz" ToRole="Dobavljaci" />
+    <NavigationProperty Name="Korisnici" Relationship="Model.FK_Ulaz_Korisnici" FromRole="Ulaz" ToRole="Korisnici" />
+    <NavigationProperty Name="Skladista" Relationship="Model.FK_Ulaz_Skladista" FromRole="Ulaz" ToRole="Skladista" />
+    <NavigationProperty Name="UlazStavke" Relationship="Model.FK_UlazStavke_Ulaz" FromRole="Ulaz" ToRole="UlazStavke" />
+  </EntityType>
+  <EntityType Name="UlazStavke">
+    <Key>
+      <PropertyRef Name="UlazStavkeID" />
+    </Key>
+    <Property Name="UlazStavkeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="UlazID" Type="Int32" Nullable="false" />
+    <Property Name="IgraID" Type="Int32" Nullable="false" />
+    <Property Name="Kolicina" Type="Int32" Nullable="false" />
+    <Property Name="Cijena" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <NavigationProperty Name="Igre" Relationship="Model.FK_UlazStavke_Igre" FromRole="UlazStavke" ToRole="Igre" />
+    <NavigationProperty Name="Ulaz" Relationship="Model.FK_UlazStavke_Ulaz" FromRole="UlazStavke" ToRole="Ulaz" />
+  </EntityType>
+  <EntityType Name="Uloge">
+    <Key>
+      <PropertyRef Name="UlogaID" />
+    </Key>
+    <Property Name="UlogaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Opis" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="KorisniciUloge" Relationship="Model.FK_KorisniciUloge_Uloge" FromRole="Uloge" ToRole="KorisniciUloge" />
+  </EntityType>
+  <EntityType Name="Vrsta">
+    <Key>
+      <PropertyRef Name="VrstaID" />
+    </Key>
+    <Property Name="VrstaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Ulaz_Dobavljaci">
+    <End Role="Dobavljaci" Type="Model.Dobavljaci" Multiplicity="1" />
+    <End Role="Ulaz" Type="Model.Ulaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dobavljaci">
+        <PropertyRef Name="DobavljacID" />
+      </Principal>
+      <Dependent Role="Ulaz">
+        <PropertyRef Name="DobavljacID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Igre_Izdavaci">
+    <End Role="Izdavaci" Type="Model.Izdavaci" Multiplicity="1" />
+    <End Role="Igre" Type="Model.Igre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Izdavaci">
+        <PropertyRef Name="IzdavacID" />
+      </Principal>
+      <Dependent Role="Igre">
+        <PropertyRef Name="IzdavacID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IzlazStavke_Igre">
+    <End Role="Igre" Type="Model.Igre" Multiplicity="1" />
+    <End Role="IzlazStavke" Type="Model.IzlazStavke" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Igre">
+        <PropertyRef Name="IgraID" />
+      </Principal>
+      <Dependent Role="IzlazStavke">
+        <PropertyRef Name="ProizvodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NarudzbeStavke_Igre">
+    <End Role="Igre" Type="Model.Igre" Multiplicity="1" />
+    <End Role="NarudzbeStavke" Type="Model.NarudzbeStavke" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Igre">
+        <PropertyRef Name="IgraID" />
+      </Principal>
+      <Dependent Role="NarudzbeStavke">
+        <PropertyRef Name="IgraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ocjene_Igre">
+    <End Role="Igre" Type="Model.Igre" Multiplicity="1" />
+    <End Role="Ocjene" Type="Model.Ocjene" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Igre">
+        <PropertyRef Name="IgraID" />
+      </Principal>
+      <Dependent Role="Ocjene">
+        <PropertyRef Name="ProizvodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UlazStavke_Igre">
+    <End Role="Igre" Type="Model.Igre" Multiplicity="1" />
+    <End Role="UlazStavke" Type="Model.UlazStavke" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Igre">
+        <PropertyRef Name="IgraID" />
+      </Principal>
+      <Dependent Role="UlazStavke">
+        <PropertyRef Name="IgraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Izlazi_Korisnici">
+    <End Role="Korisnici" Type="Model.Korisnici" Multiplicity="1" />
+    <End Role="Izlazi" Type="Model.Izlazi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnici">
+        <PropertyRef Name="KorisnikID" />
+      </Principal>
+      <Dependent Role="Izlazi">
+        <PropertyRef Name="KorisnikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Izlazi_Narudzbe">
+    <End Role="Narudzbe" Type="Model.Narudzbe" Multiplicity="1" />
+    <End Role="Izlazi" Type="Model.Izlazi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Narudzbe">
+        <PropertyRef Name="NarudzbaID" />
+      </Principal>
+      <Dependent Role="Izlazi">
+        <PropertyRef Name="NarudzbaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Izlazi_Skladista">
+    <End Role="Skladista" Type="Model.Skladista" Multiplicity="1" />
+    <End Role="Izlazi" Type="Model.Izlazi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skladista">
+        <PropertyRef Name="SkladisteID" />
+      </Principal>
+      <Dependent Role="Izlazi">
+        <PropertyRef Name="SkladisteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IzlazStavke_Izlazi">
+    <End Role="Izlazi" Type="Model.Izlazi" Multiplicity="1" />
+    <End Role="IzlazStavke" Type="Model.IzlazStavke" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Izlazi">
+        <PropertyRef Name="IzlazID" />
+      </Principal>
+      <Dependent Role="IzlazStavke">
+        <PropertyRef Name="IzlazID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KorisniciUloge_Korisnici">
+    <End Role="Korisnici" Type="Model.Korisnici" Multiplicity="1" />
+    <End Role="KorisniciUloge" Type="Model.KorisniciUloge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnici">
+        <PropertyRef Name="KorisnikID" />
+      </Principal>
+      <Dependent Role="KorisniciUloge">
+        <PropertyRef Name="KorisnikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ulaz_Korisnici">
+    <End Role="Korisnici" Type="Model.Korisnici" Multiplicity="1" />
+    <End Role="Ulaz" Type="Model.Ulaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnici">
+        <PropertyRef Name="KorisnikID" />
+      </Principal>
+      <Dependent Role="Ulaz">
+        <PropertyRef Name="KorisnikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KorisniciUloge_Uloge">
+    <End Role="Uloge" Type="Model.Uloge" Multiplicity="1" />
+    <End Role="KorisniciUloge" Type="Model.KorisniciUloge" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uloge">
+        <PropertyRef Name="UlogaID" />
+      </Principal>
+      <Dependent Role="KorisniciUloge">
+        <PropertyRef Name="UlogaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Narudzbe_Kupci">
+    <End Role="Kupci" Type="Model.Kupci" Multiplicity="1" />
+    <End Role="Narudzbe" Type="Model.Narudzbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kupci">
+        <PropertyRef Name="KupacID" />
+      </Principal>
+      <Dependent Role="Narudzbe">
+        <PropertyRef Name="KupacID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ocjene_Kupci">
+    <End Role="Kupci" Type="Model.Kupci" Multiplicity="1" />
+    <End Role="Ocjene" Type="Model.Ocjene" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kupci">
+        <PropertyRef Name="KupacID" />
+      </Principal>
+      <Dependent Role="Ocjene">
+        <PropertyRef Name="KupacID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NarudzbeStavke_Narudzbe">
+    <End Role="Narudzbe" Type="Model.Narudzbe" Multiplicity="1" />
+    <End Role="NarudzbeStavke" Type="Model.NarudzbeStavke" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Narudzbe">
+        <PropertyRef Name="NarudzbaID" />
+      </Principal>
+      <Dependent Role="NarudzbeStavke">
+        <PropertyRef Name="NarudzbaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ulaz_Skladista">
+    <End Role="Skladista" Type="Model.Skladista" Multiplicity="1" />
+    <End Role="Ulaz" Type="Model.Ulaz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skladista">
+        <PropertyRef Name="SkladisteID" />
+      </Principal>
+      <Dependent Role="Ulaz">
+        <PropertyRef Name="SkladisteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UlazStavke_Ulaz">
+    <End Role="Ulaz" Type="Model.Ulaz" Multiplicity="1" />
+    <End Role="UlazStavke" Type="Model.UlazStavke" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ulaz">
+        <PropertyRef Name="UlazID" />
+      </Principal>
+      <Dependent Role="UlazStavke">
+        <PropertyRef Name="UlazID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="DobavljaciSelectByID_Result">
+    <Property Type="Int32" Name="DobavljacID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="KontaktOsoba" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Adresa" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Telefon" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ZiroRacun" Nullable="false" MaxLength="255" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="DobavljaciSelectByNaziv_Result">
+    <Property Type="Int32" Name="DobavljacID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="KontaktOsoba" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Adresa" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Telefon" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ZiroRacun" Nullable="false" MaxLength="255" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetAllDobavljaci_Result">
+    <Property Type="Int32" Name="DobavljacID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="KontaktOsoba" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Adresa" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Telefon" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ZiroRacun" Nullable="false" MaxLength="255" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetAllSkladista_Result">
+    <Property Type="Int32" Name="SkladisteID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="Adresa" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GETIzdavaci_Result">
+    <Property Type="Int32" Name="IzdavacID" Nullable="false" />
+    <Property Type="String" Name="Ime" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetVrstaALL_Result">
+    <Property Type="Int32" Name="VrstaID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="IgreSelectByID_Result">
+    <Property Type="Int32" Name="IgraID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="DatumIzdavanja" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="IzdavacID" Nullable="false" />
+    <Property Type="Decimal" Name="Cijena" Nullable="false" Precision="19" />
+    <Property Type="Binary" Name="Slika" Nullable="true" />
+    <Property Type="String" Name="Trailer" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="Opis" Nullable="false" MaxLength="500" />
+    <Property Type="Int32" Name="VrstaID" Nullable="false" />
+    <Property Type="Binary" Name="SlikaThumb" Nullable="true" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+    <Property Type="String" Name="Šifra" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="IgreSelectBySifra_Result">
+    <Property Type="Int32" Name="IgraID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="DatumIzdavanja" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="IzdavacID" Nullable="false" />
+    <Property Type="Decimal" Name="Cijena" Nullable="false" Precision="19" />
+    <Property Type="Binary" Name="Slika" Nullable="true" />
+    <Property Type="String" Name="Trailer" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="Opis" Nullable="false" MaxLength="500" />
+    <Property Type="Int32" Name="VrstaID" Nullable="false" />
+    <Property Type="Binary" Name="SlikaThumb" Nullable="true" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+    <Property Type="String" Name="Šifra" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="IzlazSelectByDatum_Result">
+    <Property Type="String" Name="Šifra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="500" />
+    <Property Type="Decimal" Name="Cijena" Nullable="false" Precision="19" />
+    <Property Type="Int32" Name="Kolicina" Nullable="true" />
+    <Property Type="Decimal" Name="Iznos" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Korisnici_Select_By_KorisnickoIme_Result">
+    <Property Type="Int32" Name="KorisnikID" Nullable="false" />
+    <Property Type="String" Name="Ime" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Prezime" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Telefon" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="KorisnickoIme" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LozinkaHash" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="LozinkaSalt" Nullable="false" MaxLength="100" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Korisnici_Uloge_SelectByKorisnik_Result">
+    <Property Type="Int32" Name="UlogaID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Opis" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="KorisniciSelectByNameSearch_Result">
+    <Property Type="Int32" Name="KorisnikID" Nullable="false" />
+    <Property Type="String" Name="Ime" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Prezime" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="100" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+    <Property Type="Int32" Name="BrojUloga" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="KorisniciSelektById_Result">
+    <Property Type="Int32" Name="KorisnikID" Nullable="false" />
+    <Property Type="String" Name="Ime" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Prezime" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Telefon" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="KorisnickoIme" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LozinkaHash" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="LozinkaSalt" Nullable="false" MaxLength="100" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="KupciSelectByKorisnickoIme_Result">
+    <Property Type="Int32" Name="KupacID" Nullable="false" />
+    <Property Type="String" Name="Ime" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Prezime" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="DatumRegistracije" Nullable="false" Precision="23" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="KorisnickoIme" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="LozinkaHash" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LozinkaSalt" Nullable="false" MaxLength="50" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SelectIgreAll_Result">
+    <Property Type="Int32" Name="IgraID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="DatumIzdavanja" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="IzdavacID" Nullable="false" />
+    <Property Type="Decimal" Name="Cijena" Nullable="false" Precision="19" />
+    <Property Type="Binary" Name="Slika" Nullable="true" />
+    <Property Type="String" Name="Trailer" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="Opis" Nullable="false" MaxLength="500" />
+    <Property Type="Int32" Name="VrstaID" Nullable="false" />
+    <Property Type="Binary" Name="SlikaThumb" Nullable="true" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+    <Property Type="String" Name="Šifra" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SelectIgreNameSifra_Result">
+    <Property Type="Int32" Name="IgraID" Nullable="false" />
+    <Property Type="String" Name="Šifra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="500" />
+    <Property Type="Decimal" Name="Cijena" Nullable="false" Precision="19" />
+    <Property Type="String" Name="DatumIzdavanja" Nullable="false" MaxLength="50" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="UlogeALL_Result">
+    <Property Type="Int32" Name="UlogaID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Opis" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="IgreSelectByVrstaNaziv_Result">
+    <Property Type="Int32" Name="IgraID" Nullable="false" />
+    <Property Type="String" Name="Naziv" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="Šifra" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Cijena" Nullable="false" Precision="19" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[dodajIzdavaca]
+(
+@Ime nvarchar(50)
+)
+AS
+
+INSERT INTO Izdavaci(Ime)
+VALUES(@Ime)
+
+
+GO

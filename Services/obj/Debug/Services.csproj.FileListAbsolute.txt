@@ -1,0 +1,40 @@
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\Services.dll.config
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\Services.dll
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\Services.pdb
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\EntityFramework.dll
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\EntityFramework.xml
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\obj\Debug\Services.dll
+c:\users\peropapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\obj\Debug\Services.pdb
+C:\Users\PeroPapacoder\documents\visual studio 2012\Projects\PEP-GameShop_Administracija\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\Services.dll.config
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\Services.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\Services.pdb
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\EntityFramework.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\bin\Debug\EntityFramework.xml
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\obj\Debug\Services.dll
+C:\Users\Haris\Documents\Visual Studio 2012\Projects\PEP-GameShop_Administracija\Services\obj\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\bin\Debug\Services.dll.config
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\bin\Debug\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\bin\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\bin\Debug\EntityFramework.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\bin\Debug\EntityFramework.xml
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\obj\Debug\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\obj\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop_Administracija\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\bin\Debug\Services.dll.config
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\bin\Debug\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\bin\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\bin\Debug\EntityFramework.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\bin\Debug\EntityFramework.xml
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\obj\Debug\Services.dll
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\obj\Debug\Services.pdb
+D:\FAX\FAX\zadnje\PEP-GameShop\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\bin\Debug\Services.dll.config
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\bin\Debug\Services.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\bin\Debug\Services.pdb
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\bin\Debug\EntityFramework.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\bin\Debug\EntityFramework.xml
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\obj\Debug\Services.dll
+C:\Users\haris\Downloads\PeP-SeminarskiRad-2351-2469\PeP-SeminarskiRad-2351-2469\Aplikacija-2351-2469\PEP-GameShop\Services\obj\Debug\Services.pdb

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99999999-9999-9999-9999-999999999999}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyRootNamespace</RootNamespace>
+    <AssemblyName>MyAssemblyName</AssemblyName>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <Name>Database</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="RedGate.ssc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RedGateDatabaseInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.AukcijeBYKupac.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.AukcSelectByID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.DeleteKOrisnici.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.DobavljaciSelectByID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.DobavljaciSelectByNaziv.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.dodajIzdavaca.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.dodajVrstu.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.GetAllDobavljaci.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.GetAllSkladista.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.GETIzdavaci.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.GetVrstaALL.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IgreSelectByID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IgreSelectBySifra.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IgreSelectBySkladiste.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IgreSelectByVrstaNaziv.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.InsertAukcije.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.InsertDobavljaci.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.InsertIgre.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.InsertOcjene.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.INSERTRECENZIJA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.InsertSkladista.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IzlaziStavkeInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IzlazRobeInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.IzlazSelectByDatum.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciChangePassword.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciIUlogeInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciSelectByNameSearch.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciSelektById.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciUlogeDelete.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KorisniciUpdateStatus.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.Korisnici_Select_By_KorisnickoIme.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.Korisnici_Uloge_SelectByKorisnik.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KUPACSELECTBYKORISNICKOIME.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KupciInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.KupciSelectByKorisnickoIme.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SearchRecenzije.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectAktivneNarudb.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTALLZAHTJEVI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTAUKCIJABYID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectAukcije.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectIgreAll.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectIgreByNarudzbaID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectIgreNameSifra.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectKupacByNarudzbaID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SelectNarudzbaByID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTNARUDZBABYKUPAC.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTRECENZIJABYID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTRECENZIJE.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTZAHTJEVBYID.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.SELECTZAHTJEVIBROJGLASOVA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.UlazRobeInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.UlazStavkeInsert.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.UlogeALL.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.UpdateAukcija.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.UpdateNarudba.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.UpdateRecenzije.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.update_korisnik.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.ZAHTJEVIINSERT.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.ZAHTJEVIKUPCIINSERT.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.ZAHTJEVIKUPCIPROVJERA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.ZAHTJEVINFO.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stored Procedures\dbo.ZahtjeviPretragaNaziv.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Aukcije.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Dobavljaci.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Igre.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Izdavaci.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Izlazi.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.IzlazStavke.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Korisnici.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.KorisniciUloge.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Kupci.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Narudzbe.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.NarudzbeStavke.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Ocjene.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Recenzije.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Skladista.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Ulaz.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.UlazStavke.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Uloge.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Vrsta.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.Zahtjevi.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Tables\dbo.ZahtjeviKupci.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assemblies\" />
+    <Folder Include="Database Triggers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Defaults\" />
+    <Folder Include="Extended Properties\" />
+    <Folder Include="Functions\" />
+    <Folder Include="Rules\" />
+    <Folder Include="Search Property Lists\" />
+    <Folder Include="Security\" />
+    <Folder Include="Security\Asymmetric Keys\" />
+    <Folder Include="Security\Certificates\" />
+    <Folder Include="Security\Roles\" />
+    <Folder Include="Security\Schemas\" />
+    <Folder Include="Security\Symmetric Keys\" />
+    <Folder Include="Security\Users\" />
+    <Folder Include="Sequences\" />
+    <Folder Include="Service Broker\" />
+    <Folder Include="Service Broker\Contracts\" />
+    <Folder Include="Service Broker\Event Notifications\" />
+    <Folder Include="Service Broker\Message Types\" />
+    <Folder Include="Service Broker\Queues\" />
+    <Folder Include="Service Broker\Remote Service Bindings\" />
+    <Folder Include="Service Broker\Routes\" />
+    <Folder Include="Service Broker\Services\" />
+    <Folder Include="Storage\" />
+    <Folder Include="Storage\Full Text Catalogs\" />
+    <Folder Include="Storage\Full Text Stoplists\" />
+    <Folder Include="Storage\Partition Functions\" />
+    <Folder Include="Storage\Partition Schemes\" />
+    <Folder Include="Stored Procedures\" />
+    <Folder Include="Synonyms\" />
+    <Folder Include="Tables\" />
+    <Folder Include="Types\" />
+    <Folder Include="Types\User-defined Data Types\" />
+    <Folder Include="Types\XML Schema Collections\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <Target Name="Build">
+  </Target>
+  <Target Name="Rebuild">
+  </Target>
+  <Target Name="Clean">
+  </Target>
+  <Target Name="GetFrameWorkPaths">
+  </Target>
+</Project>

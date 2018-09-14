@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[DeleteKOrisnici]
+(
+@KorisnikID int
+)
+AS
+
+DELETE FROM Korisnici
+WHERE KorisnikID=@KorisnikID
+
+
+GO

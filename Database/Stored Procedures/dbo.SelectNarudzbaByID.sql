@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[SelectNarudzbaByID]
+(
+
+@ID int
+)
+
+AS
+
+SELECT * FROM Narudzbe WHERE NarudzbaID=@ID
+
+GO

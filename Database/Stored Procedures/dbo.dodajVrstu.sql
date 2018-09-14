@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[dodajVrstu]
+(
+@Naziv nvarchar(50)
+)
+
+AS
+
+INSERT INTO Vrsta(Naziv)
+VALUES(@Naziv)
+
+GO

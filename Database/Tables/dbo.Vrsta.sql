@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Vrsta]
+(
+[VrstaID] [int] NOT NULL IDENTITY(1, 1),
+[Naziv] [nvarchar] (50) COLLATE Latin1_General_CI_AI NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Vrsta] ADD CONSTRAINT [PK_Vrsta] PRIMARY KEY CLUSTERED  ([VrstaID]) ON [PRIMARY]
+GO

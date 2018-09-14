@@ -1,0 +1,58 @@
+﻿.proizvodiHome {
+    background-color:white !important;
+    padding:10px;
+}
+.detalji {
+    background-color:white !important;
+    padding:10px;
+}
+#MainContent_lblCijena {
+    float: right;
+    margin-top: -281px;
+    margin-right: -59px;
+    font-size: 30px;
+}
+.lblCijena {
+    float: right;
+    margin-top: -281px;
+    margin-right: -59px;
+    font-size: 30px;
+}
+.ord {
+    background-color:white !important;
+    padding:10px;
+}
+.hist {
+     background-color:white !important;
+    padding:10px;
+}
+    .hist th {
+        padding-right:30px;
+    }
+.aut {
+    margin-left:76px;
+}
+.right {
+    float: right;
+margin-right: 325px;
+font-size: 20px;
+margin-top: 20px;
+}
+.imageAukcija {
+
+   width: 298px;
+  height: 180px;
+  float: right;
+  margin-right: 214px;
+  margin-top: 20px;
+}
+.inputCijena {
+    width:40px;
+}
+.labelHistory {
+    margin-right: 2px;
+}
+
+.racunLeft {
+    margin-left:131px;
+}
